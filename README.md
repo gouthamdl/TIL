@@ -1,2 +1,2 @@
 # TIL
-Collection of useful tips
+Collection of useful tips. Start with TIL.org
