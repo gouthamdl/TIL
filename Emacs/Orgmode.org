@@ -1,0 +1,5 @@
+
+*** Insert links to headings in other org files
+    Goto the org file and type C-c l to store the link at the point (The Keybinding needs to be setup).
+    The link can be inserted back with C-c C-l. A link at the current point can be opened with C-c C-o.
+
