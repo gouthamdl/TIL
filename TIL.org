@@ -7,9 +7,14 @@
 *** General
 - [[file:Emacs/General.org::*Open%20an%20Emacs%20file%20in%20the%20browser][Open an Emacs file in the browser]]
 - [[file:Emacs/General.org::*Delete%20a%20file%20using%20Emacs][Delete a file using Emacs]]
+- [[file:Emacs/General.org::*Remove%20text%20within%20quotes][Remove text within quotes]]
 
 *** Org Mode
 - [[file:Emacs/Orgmode.org::*Insert%20links%20to%20headings%20in%20other%20org%20files][Insert links to headings in other org files]]
 
 
 *** Magit
+
+** Git
+- [[file:Git/Git.org::*Squash%20commits][Squash commits]]
+- [[file:Git/Git.org::*Alias%20for%20git%20pull%20--rebase][Alias for git pull --rebase]]
