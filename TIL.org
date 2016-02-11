@@ -14,7 +14,9 @@
 
 
 *** Magit
-
+- [[file:Emacs/Magit.org::*Useful%20keybindings][Useful keybindings]]
+    
 ** Git
 - [[file:Git/Git.org::*Squash%20commits][Squash commits]]
 - [[file:Git/Git.org::*Alias%20for%20git%20pull%20--rebase][Alias for git pull --rebase]]
+

@@ -1,0 +1,2 @@
+*** Useful keybindings
+    - k (M-x magit-discard-item) -> Discard changes to staged/unstaged files
