@@ -1,9 +1,11 @@
 
 *** Squash commits
-    2 options
-    - git rebase -i HEAD~n  (Replace n appropriately). 
-      Then, change pick to squash for the commits to be squashed.
-    - git reset --soft HEAD~3 && git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
+    git rebase -i HEAD~n  (Replace n appropriately). 
+    Then, change pick to squash for the commits to be squashed.
+    From Howard Abrams' [[http://howardism.org/Technical/Git/squashing-commits.html][post]].
 
 *** Alias for git pull --rebase 
     git config --global alias.pull 'pull --rebase'
+
+*** Show the top contributers to a package
+    git shortlog -sne
