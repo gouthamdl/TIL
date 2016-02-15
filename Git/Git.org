@@ -9,3 +9,10 @@
 
 *** Show the top contributers to a package
     git shortlog -sne
+
+*** Look at the type and contents of a blob or commit
+    git cat-file -t <Blob or Commit  hash ID> -> This fetches the type of the object
+    git cat-file <type>(blob, commit etc) <>  -> This shows the contents of the blob,tree or commit.
+    
+*** Fetch commit IDs for blobs/trees from a branch
+    git ls-tree <branch-name> (for eg: git ls-tree HEAD)
