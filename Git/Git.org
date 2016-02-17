@@ -13,14 +13,24 @@
     #+end_src
 
 *** Alias for git pull --rebase 
+    #+begin_src sh
     git config --global alias.pull 'pull --rebase'
+    #+end_src
 
 *** Show the top contributers to a package
+    #+begin_src sh
     git shortlog -sne
+    #+end_src
 
 *** Look at the type and contents of a blob or commit
-    git cat-file -t <Blob or Commit  hash ID> -> This fetches the type of the object
-    git cat-file <type>(blob, commit etc) <>  -> This shows the contents of the blob,tree or commit.
+    #+begin_src sh
+    git cat-file -t <Blob or Commit  hash ID> 
+    # This fetches the type of the object
+    git cat-file <type>(blob, commit etc) <>
+    # This shows the contents of the blob,tree or commit.
+    #+end_src
     
 *** Fetch commit IDs for blobs/trees from a branch
+    #+begin_src sh
     git ls-tree <branch-name> (for eg: git ls-tree HEAD)
+    #+end_src
