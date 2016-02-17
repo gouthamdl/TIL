@@ -1,8 +1,18 @@
 
 *** Squash commits
-    git rebase -i HEAD~n  (Replace n appropriately). 
-    Then, change pick to squash for the commits to be squashed.
-    From Howard Abrams' [[http://howardism.org/Technical/Git/squashing-commits.html][post]].
+    #+begin_src sh
+     git rebase -i HEAD~n
+    #+end_src
+    #(Replace n appropriately). 
+    #Then, change pick to squash for the commits to be squashed.
+    #From Howard Abrams' [[http://howardism.org/Technical/Git/squashing-commits.html][post]].
+
+    #If there are only 2 commits to be squashed, it is much simpler to just do a reset.
+    git reset --soft HEAD^^
+    #The above command ignores the logs for those commits. To include the logs :
+    git reset --soft HEAD~3 && git commit --edit -m"$(git log --format=%B --reverse HEAD..HEAD@{1})"
+    #Replace 3 appropriately
+    #+end_src
 
 *** Alias for git pull --rebase 
     git config --global alias.pull 'pull --rebase'
