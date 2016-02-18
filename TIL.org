@@ -22,6 +22,6 @@
 - [[file:Git/Git.org::*Show%20the%20top%20contributers%20to%20a%20package][Show the top contributers to a package]]
 - [[file:Git/Git.org::*Look%20at%20the%20type%20and%20contents%20of%20a%20blob%20or%20commit][Look at the type and contents of a blob or commit]]
 - [[file:Git/Git.org::*Fetch%20commit%20IDs%20for%20blobs/trees%20from%20a%20branch][Fetch commit IDs for blobs/trees from a branch]]
-- [[file:Git/Git.org::*Ignore%20local%20changes%20in%20tracked%20files][Ignore local changes in tracked files]]
+- [[file:Git/Git2.org::*Ignore%20local%20changes%20in%20tracked%20files][Ignore local changes in tracked files]]
 
 

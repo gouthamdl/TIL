@@ -35,14 +35,4 @@
     git ls-tree <branch-name> (for eg: git ls-tree HEAD)
     #+end_src
 
-** Ignore local changes in tracked files
-   There might be a situation where you want to change a file locally but do not want to push it to
-   the remote repository and do not want the file showing up when doing git status. 
-   This can be done with git update-index as shown below(taking .gitignore as the example file)
-   #+begin_src sh
-   git update-index --assume-unchanged .gitignore
-   # To undo this
-   git update-index --no-assume-unchanged .gitignore
-   #+end_src
-   (There are some limitations to this. Doing a stash and stash pop seems to restore the remote
-   version of the file).
+
