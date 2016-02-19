@@ -1,0 +1,15 @@
+
+*** Highlight grep matches
+    #+begin_src sh
+    # Add this to bash.rc to color grep matches red
+    export GREP_OPTIONS='--color=auto' GREP_COLOR='1;37;41'
+    #+end_src
+
+*** Start a process in the background
+    Say you'd like to run emacs in the current folder but in the background so that
+    you can continue using the terminal. This can be done using '&' which runs a command in the background.
+    #+begin_src sh
+    emacs &
+    #+end_src
+    Use jobs to list the current background jobs, C-z to suspend them, fg to bring a job
+    to the foreground and kill <job ID> to kill a bg process.
