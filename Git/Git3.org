@@ -1,0 +1,14 @@
+
+*** Total lines of code changed between 2 commits
+    #+begin_src sh
+    git diff --stat <commit_1> <commit_2> | awk '{ sum += $3} END {print sum}'
+    #+end_src
+
+*** Which commit deleted a file?
+    #+begin_src sh
+    git log -- <file_path>
+    # Limit output to just the last commit
+    git log -1 -- <file_path>
+    # Also show some stats about the last commit
+    git log -1 --stat -- <file_path>
+    #+end_src

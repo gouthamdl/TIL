@@ -11,5 +11,10 @@
    #+end_src
    There are some limitations to this. Doing a stash and stash pop seems to restore the remote
    version of the file.
-
+   Another option is skip-worktree which tries harder to preserve local changes. The corresponding commands:
+   #+begin_src sh
+   git update-index --skip-worktree .gitignore
+   git update-index --no-skip-worktree .gitignore
+   git ls-files -v | grep '^S' 
+   # To undo this
 

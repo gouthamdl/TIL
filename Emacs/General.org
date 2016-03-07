@@ -9,6 +9,7 @@
 
 *** Remove text within quotes
     Zap to Char i.e M-z <char> deletes all characters upto and including <char>. 
+    To do this in reverse, give a numeric prefix. For eg: C-u -1 M-z <char>
     M-2 M-z " will kill upto 2 instances of " and anything in between. Helpful when your current point is the beginning quote.
     Note that C-M-k (kill-sexp) does the same thing.
 
