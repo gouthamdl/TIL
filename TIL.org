@@ -17,14 +17,26 @@
 - [[file:Emacs/Magit.org::*Useful%20keybindings][Useful keybindings]]
     
 ** Git
-- [[file:Git/Git.org::*Squash%20commits][Squash commits]]
+**** General
+- [[file:Git/Git2.org::*Ignore%20local%20changes%20in%20tracked%20files][Ignore local changes in tracked files]]
 - [[file:Git/Git.org::*Alias%20for%20git%20pull%20--rebase][Alias for git pull --rebase]]
 - [[file:Git/Git.org::*Show%20the%20top%20contributers%20to%20a%20package][Show the top contributers to a package]]
-- [[file:Git/Git.org::*Look%20at%20the%20type%20and%20contents%20of%20a%20blob%20or%20commit][Look at the type and contents of a blob or commit]]
-- [[file:Git/Git.org::*Fetch%20commit%20IDs%20for%20blobs/trees%20from%20a%20branch][Fetch commit IDs for blobs/trees from a branch]]
-- [[file:Git/Git2.org::*Ignore%20local%20changes%20in%20tracked%20files][Ignore local changes in tracked files]]
+
+****  Commits
+- [[file:Git/Git.org::*Squash%20commits][Squash commits]]
 - [[file:Git/Git3.org::*Total%20lines%20of%20code%20changed%20between%202%20commits][Total lines of code changed between 2 commits]]
 - [[file:Git/Git3.org::*Which%20commit%20deleted%20a%20file?][Which commit deleted a file?]]
+- [[file:Git/Git3.org::*Show%20commits%20that%20added%20files%20(newest%20first)][Show commits that added files (newest first)]]
+- [[file:Git/Git3.org::*Show%20commits%20that%20changed%20a%20specific%20file][Show commits that changed a specific file]]
+
+**** Remote branches
+- [[file:Git/Remotes.org::*Push%20to%20a%20remote%20branch][Push to a remote branch]]
+- [[file:Git/Remotes.org::*Pull%20a%20remote%20branch][Pull a remote branch]]
+
+**** Internals
+- [[file:Git/Git.org::*Look%20at%20the%20type%20and%20contents%20of%20a%20blob%20or%20commit][Look at the type and contents of a blob or commit]]
+- [[file:Git/Git.org::*Fetch%20commit%20IDs%20for%20blobs/trees%20from%20a%20branch][Fetch commit IDs for blobs/trees from a branch]]
+
 
 ** Unix
 - [[file:Unix/Unix.org::*Highlight%20grep%20matches][Highlight grep matches]]

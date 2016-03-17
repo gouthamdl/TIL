@@ -12,3 +12,15 @@
     # Also show some stats about the last commit
     git log -1 --stat -- <file_path>
     #+end_src
+
+*** Show commits that added files (newest first)
+    #+begin_src sh
+    git whatchanged --diff-filter=A
+    #+end_src
+
+*** Show commits that changed a specific file
+    #+begin_src sh
+    git log --follow filename
+    #+end_src
+
+
