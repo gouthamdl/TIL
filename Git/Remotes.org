@@ -1,0 +1,10 @@
+*** Push to a remote branch
+    #+begin_src sh
+    git push origin <local-branch-name>:<remote-branch-name>
+    #+end_src 
+
+*** Pull a remote branch
+    #+begin_src sh
+    git checkout <remote_branch_name>
+    # If git branch -r doesn't show the remote branch, do a git fetch to update
+    #+end_src 
