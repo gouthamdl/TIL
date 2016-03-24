@@ -8,3 +8,8 @@
     git checkout <remote_branch_name>
     # If git branch -r doesn't show the remote branch, do a git fetch to update
     #+end_src 
+
+*** Track a remote branch
+    #+begin_src sh
+    git branch --set-upstream-to=origin/mainline
+    #+end_src 

@@ -3,3 +3,22 @@
     Goto the org file and type C-c l to store the link at the point (The Keybinding needs to be setup).
     The link can be inserted back with C-c C-l. A link at the current point can be opened with C-c C-o.
 
+* Some useful shortcuts
+** [100%] Lists
+1. To toggle a list between itemize and numbered, use (C-c -) at any place in the list
+2. M-RET (Alt-Enter) creates a new list item
+3. [X] Toggle a checkbox with (C-c C-c).
+   To add a count of checkbox satus to the headline, use [/] or [%].
+4. To create a sub-list, use TAB.
+5. C-c ^ to sort a list
+
+** Tables
+1) (C-c -) also inserts a horizontal line in a table under the current row
+2) (C-c |) either creates a new table or converts a region into a table
+3) Use a formula in a column using := or =. For eg: =vmean(@2..@-1). Use (C-c C-c) to update.
+4) M-S-LeftArrow for deleting a column. M-S-UP for deleting a row.
+5) S-TAB moves to the previous field
+
+** Headings
+1. C-c C-f -> Next heading, same level (C-c C-b for previous)
+2. C-c C-n -> Next heading

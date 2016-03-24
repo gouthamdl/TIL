@@ -32,6 +32,7 @@
 **** Remote branches
 - [[file:Git/Remotes.org::*Push%20to%20a%20remote%20branch][Push to a remote branch]]
 - [[file:Git/Remotes.org::*Pull%20a%20remote%20branch][Pull a remote branch]]
+- [[file:Git/Remotes.org::*Track%20a%20remote%20branch][Track a remote branch]]
 
 **** Internals
 - [[file:Git/Git.org::*Look%20at%20the%20type%20and%20contents%20of%20a%20blob%20or%20commit][Look at the type and contents of a blob or commit]]
