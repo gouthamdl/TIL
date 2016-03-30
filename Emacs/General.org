@@ -13,4 +13,16 @@
     M-2 M-z " will kill upto 2 instances of " and anything in between. Helpful when your current point is the beginning quote.
     Note that C-M-k (kill-sexp) does the same thing.
 
+*** Repeat previous command
+    C-x z will repeat the previous the repeat command on pressing z.
+
+*** Incremental search tips
+    - M-s . will do an incremental search with the symbol at point. Equivalent to doing C-s and typing out the word at point.
+    - M-s o runs occur and if M-s . was run prior to this, then occur will run with the word at point.
+    - M-s h . highlights the symbol at point.
+    - M-s h u turns off the highlighting
+
+*** Occur
+    - M-g n and M-g p to goto next or previous entries. Correspondingly moves the point in the main buffer as well.
+    - e to enter occur-edit-mode and C-c C-c to exit edit mode.
 
