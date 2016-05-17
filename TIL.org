@@ -43,8 +43,11 @@
 
 
 ** Unix
+**** General
 - [[file:Unix/Unix.org::*Highlight%20grep%20matches][Highlight grep matches]]
 - [[file:Unix/Unix.org::*Start%20a%20process%20in%20the%20background][Start a process in the background]]
-- 
+- [[file:Unix/Unix.org::*tmux%20tips][tmux tips]]
 
+**** JSON/jq
+- [[file:Unix/JSON.org::*JQ][JQ]]
 

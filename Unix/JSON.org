@@ -1,0 +1,17 @@
+
+
+*** JQ
+   Using the Elastic Search search result format
+   #+begin_src sh
+   # Get one of the topmost keys
+   jq '.hits'
+   
+   # Get a key's value in a deeply nested structure
+   jq '.hits.hits | .[] | {source : ._source} | .[] | .CPT' 
+
+   # Get the keys in the object
+   jq 'keys'
+   jq '.hits | keys'
+   #+end_src
+
+

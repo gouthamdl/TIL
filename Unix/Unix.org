@@ -14,3 +14,16 @@
     Use jobs to list the current background jobs, C-z to suspend them, fg to bring a job
     to the foreground and kill <job ID> to kill a bg process.
 
+*** tmux tips
+    - C-b % -> Split pane vertically
+    - C-b " -> Split pane horizontally
+    - C-b z -> Make current pane full-screen
+    - C-b d -> Detach session
+    - C-d -> Close pane
+    - C-b c -> Create new window within session
+    - C-b , -> Rename window
+    - C-b [ -> Scroll pane
+    - tmux list-sessions
+    - tmux attach -t 0 -> Attach to session 0
+    - tmux new -s java -> Create a new session called java
+    - tmux rename-session -t 0 java -> Rename session 0 to java
